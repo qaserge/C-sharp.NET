@@ -1,0 +1,11 @@
+CONSTRAINT [CK_Todos_Status] CHECK (Status IN ('Pending', 'Done'))
+
+CREATE TABLE [dbo].[ToDos] (
+    [Id]      INT           IDENTITY (1, 1) NOT NULL,
+    [Task]    NVARCHAR (50) NOT NULL,
+    [Status]  NVARCHAR (50) NOT NULL,
+    [DueDate] DATETIME      NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)    
+);
+
+CONSTRAINT [CK_Todos_Status] CHECK (Status IN ('Pending', 'Done'))

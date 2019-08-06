@@ -1,0 +1,19 @@
+﻿<Window x:Class="Day09hwSandwich.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Day09hwSandwich"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="231.78" Width="339.513">
+    <Grid>
+        <Button Content="Make a sandwich" HorizontalAlignment="Left" Margin="40,25,0,0" VerticalAlignment="Top" Width="254" Click="MakeSandwich_ButtonClick"/>
+        <Label Content="Bread:" HorizontalAlignment="Left" Margin="40,77,0,0" VerticalAlignment="Top" Width="73"/>
+        <Label Name="lblBread" Content="not selected" HorizontalAlignment="Left" Margin="124,77,0,0" VerticalAlignment="Top" Width="168"/>
+        <Label Content="Veggies:" HorizontalAlignment="Left" Margin="40,108,0,0" VerticalAlignment="Top" Width="73"/>
+        <Label Name="lblVegetables" Content="not selected" HorizontalAlignment="Left" Margin="124,108,0,0" VerticalAlignment="Top" Width="168"/>
+        <Label Content="Meat:" HorizontalAlignment="Left" Margin="40,139,0,0" VerticalAlignment="Top" Width="73"/>
+        <Label Name="lblMeat" Content="not selected" HorizontalAlignment="Left" Margin="124,139,0,0" VerticalAlignment="Top" Width="168"/>
+
+    </Grid>
+</Window>
