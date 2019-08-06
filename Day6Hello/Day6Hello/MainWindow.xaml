@@ -1,0 +1,19 @@
+﻿<Window x:Class="Day6Hello.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Day6Hello"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Title="MainWindow" Height="183.334" Width="368.137">
+    <Grid>
+        <Label Content="Enter your name:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.003,-0.241" Height="28" Width="101"/>
+        <TextBox Name="tbName" HorizontalAlignment="Left" Height="23" Margin="116,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"/>
+        <Button Click="ButtonSayHelloWithMB_Click" Content="Say Hello with MB" HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top" Width="151" />
+        <Button Click="ButtonSayHelloWithLabel_Click" Content="Say Hello with Label" HorizontalAlignment="Left" Margin="191,51,0,0" VerticalAlignment="Top" Width="153"/>
+        <Label Name="lblGreeting" Content="Label" HorizontalAlignment="Left" Margin="10,94,0,0" VerticalAlignment="Top" Width="334"/>
+
+    </Grid>
+</Window>

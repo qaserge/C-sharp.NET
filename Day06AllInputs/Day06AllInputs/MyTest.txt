@@ -1,0 +1,12 @@
+Name: Sergei
+Age: 18-35
+Continent: America
+Pets: Dog
+Preferred temperature: 15
+-------------------------------------------
+Name: Tom
+Age: 35 and up
+Continent: Eurasia
+Pets: Other
+Preferred temperature: -30
+-------------------------------------------
