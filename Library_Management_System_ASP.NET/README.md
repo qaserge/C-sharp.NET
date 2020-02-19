@@ -1,1 +1,2 @@
-asp.net / mvc / ms SQL
+A library management system built in ASP.NET Core 2.0
+using MVC, MS SQL
